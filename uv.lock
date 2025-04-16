@@ -257,8 +257,8 @@ wheels = [
 ]
 
 [[package]]
-name = "mcp-gsuite"
-version = "0.4.0"
+name = "mcp-gsuite-enhancement"
+version = "0.4.1rc3"
 source = { editable = "." }
 dependencies = [
     { name = "beautifulsoup4" },

@@ -1,6 +1,6 @@
 [project]
-name = "mcp-gsuite"
-version = "0.4.1"
+name = "mcp-gsuite-enhancement"
+version = "0.4.1.rc4"
 description = "MCP Server to connect to Google G-Suite"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -15,8 +15,11 @@ dependencies = [
  "requests>=2.32.3",
 ]
 [[project.authors]]
-name = "Markus Pfundstein"
-email = "markus@life-electronic.nl"
+name = "Daniel Shih"
+email = "dog830228@gmail.com"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_gsuite"]
 
 [build-system]
 requires = [ "hatchling",]
@@ -28,4 +31,9 @@ dev = [
 ]
 
 [project.scripts]
-mcp-gsuite = "mcp_gsuite:main"
+mcp-gsuite-enhancement = "mcp_gsuite:main"
+
+[project.urls]
+Homepage = "https://github.com/isdaniel/mcp-gsuite/tree/enhance-auth-flow"
+Repository = "https://github.com/isdaniel/mcp-gsuite/tree/enhance-auth-flow"
+

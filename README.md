@@ -3,6 +3,8 @@
 [![smithery badge](https://smithery.ai/badge/mcp-gsuite)](https://smithery.ai/server/mcp-gsuite)
 MCP server to interact with Google products.
 
+Enhance from https://github.com/MarkusPfundstein/mcp-gsuite.
+
 ## Example prompts
 
 Right now, this MCP server supports Gmail and Calendar integration with the following capabilities:
